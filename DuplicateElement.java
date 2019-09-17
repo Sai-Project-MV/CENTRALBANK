@@ -1,6 +1,9 @@
 package com.nt.resource;
 
 public class DuplicateElement {
+	
+	public DuplicateElement(){
+	}
 
 	public static void main(String[] args) {
 		int a[] = { 1, 2, 5, 6, 5, 6, 2, 7 };
@@ -9,4 +12,5 @@ public class DuplicateElement {
 				if ((a[i] == a[j]) && (i != j)) 
 					System.out.println(a[j]);      
 	    }
+	
 }
